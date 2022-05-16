@@ -1,0 +1,23 @@
+<section>
+    <h1>Them hoc sinh</h1>
+
+    <form action="">
+        <table>
+            <tr>
+                <td>Ho ten:</td>
+                <td>
+                    <input type="text" placeholder="Ho ten" ng-model="name" required>
+                </td>
+            </tr>
+            <tr>
+                <td> Ngay sinh:</td>
+                <td>
+                    <input type="date" ng-model="age">
+                </td>
+            </tr>
+        </table>
+    </form>
+    
+    <button ng-click="saveAddStudent(name, age)">Luu</button>
+
+</section>
